@@ -1,4 +1,4 @@
-import { ToastContainer } from 'react-toastify';
+
 import Section from './Section/Section';
 import AddContactForm from './AddContactForm/AddContactForm';
 import ContactList from './ContactList/ContactList';
@@ -14,18 +14,6 @@ export default function App() {
         <Filter />
         <ContactList />
       </Section>
-      <ToastContainer
-        position="top-center"
-        autoClose={3000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-      />
     </>
   );
 }
